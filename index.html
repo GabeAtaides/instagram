@@ -3,18 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Instagram Login</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="login-container">
+        <div class="phone-image"></div>
         <div class="login-box">
-            <h1>Instagram</h1>
+            <div class="logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1024px-Instagram_icon.png" alt="Instagram logo">
+            </div>
             <form id="loginForm">
-                <input type="text" id="username" placeholder="Nome de usuário" required>
+                <input type="text" id="username" placeholder="Telefone, nome de usuário ou email" required>
                 <input type="password" id="password" placeholder="Senha" required>
                 <button type="submit">Entrar</button>
             </form>
+            <div class="or">
+                <hr><span>OU</span><hr>
+            </div>
+            <div class="facebook-login">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook logo">
+                <span>Entrar com o Facebook</span>
+            </div>
+            <div class="forgot-password">
+                <a href="#">Esqueceu a senha?</a>
+            </div>
         </div>
     </div>
     <script src="js/script.js"></script>
