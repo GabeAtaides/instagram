@@ -17,7 +17,7 @@ body {
 }
 
 .phone-image {
-    background-image: url('https://www.instagram.com/static/images/homepage/home-phones.png/43cc71bb1b43.png');
+    background-image: url('images/home-phones.png');
     background-size: cover;
     width: 380px;
     height: 580px;
