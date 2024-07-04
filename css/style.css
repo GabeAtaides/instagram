@@ -17,7 +17,7 @@ body {
 }
 
 .phone-image {
-    background-image: url('images/home-phones.png');
+    background-image: url('../images/home-phones.png');
     background-size: cover;
     width: 380px;
     height: 580px;
