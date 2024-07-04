@@ -4,11 +4,11 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #fafafa;
 }
 
-.login-container, .success-container {
+.login-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,18 +16,26 @@ body {
     height: 100%;
 }
 
-.login-box, .success-box {
+.phone-image {
+    background-image: url('https://www.instagram.com/static/images/homepage/home-phones.png/43cc71bb1b43.png');
+    background-size: cover;
+    width: 380px;
+    height: 580px;
+    margin-right: 20px;
+}
+
+.login-box {
     background: #fff;
     padding: 40px;
     border: 1px solid #dbdbdb;
     border-radius: 10px;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 350px;
 }
 
-.login-box h1 {
-    font-family: 'Billabong', sans-serif;
-    font-size: 2.5rem;
+.logo img {
+    width: 175px;
     margin-bottom: 20px;
 }
 
@@ -37,6 +45,7 @@ input[type="text"], input[type="password"] {
     margin: 10px 0;
     border: 1px solid #dbdbdb;
     border-radius: 5px;
+    background-color: #fafafa;
 }
 
 button {
@@ -48,10 +57,74 @@ button {
     border-radius: 5px;
     cursor: pointer;
     font-size: 1rem;
+    margin-top: 10px;
 }
 
 button:hover {
     background-color: #3183e4;
+}
+
+.or {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #8e8e8e;
+    margin: 20px 0;
+}
+
+.or hr {
+    flex: 1;
+    border: none;
+    border-top: 1px solid #dbdbdb;
+}
+
+.or span {
+    margin: 0 10px;
+}
+
+.facebook-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #385185;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.facebook-login img {
+    width: 20px;
+    margin-right: 8px;
+}
+
+.forgot-password {
+    margin-top: 20px;
+}
+
+.forgot-password a {
+    color: #00376b;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+.success-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.success-box {
+    background: #fff;
+    padding: 40px;
+    border: 1px solid #dbdbdb;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .success-box .checkmark {
